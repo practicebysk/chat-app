@@ -97,7 +97,7 @@ const Container = styled.div`
     }
     .contact {
       background-color: #ffffff34;
-      min-height: 5rem;
+      min-height: 4rem;
       cursor: pointer;
       width: 90%;
       border-radius: 0.2rem;
@@ -106,6 +106,7 @@ const Container = styled.div`
       gap: 1rem;
       align-items: center;
       transition: 0.5s ease-in-out;
+      overflow:hidden;
       .avatar {
         img {
           height: 3rem;

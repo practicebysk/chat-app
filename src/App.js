@@ -5,7 +5,8 @@ import Chat from "./pages/Chat";
 import SetAvatar from "./pages/SetAvatar";
 function App() {
   return (
-    <BrowserRouter>
+
+<BrowserRouter>
       <Routes>
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
